@@ -1,0 +1,99 @@
+
+
+/* Global css */
+/* Fist section  */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.global-btn {
+    background-color: #4CAF50; /* Green */
+    border: rgb(32, 32, 4);
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.First-section {
+    background-image: url(./Images/First.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10rem 10rem;
+    text-align: center;
+}
+
+    .First-section h3 {
+        font-size: 75px;
+    }
+
+    .First-section p {
+        color: rgb(159, 127, 255);
+        font-size: 50px;
+    }
+
+/* About me */
+.global-Section {
+    padding: 3rem;
+}
+
+.gaobal-hedding {
+    font-size: 50px;
+    text-align: center;
+}
+
+.goabal-hedding-p {
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+/* Sesond section */
+.about-main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.about-sub-div2 {
+    width: 500px;
+}
+
+    .about-sub-div2 h2 {
+        margin: 10px 30px;
+        font-size: 33px;
+    }
+
+    .about-sub-div2 p {
+        margin: 15px 30px;
+    }
+
+
+/* This is Service section */
+
+.grid-continer {
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-single-item {
+    padding: 55px;
+    /* text-align: center; */
+}
+
+    .grid-single-item h2 {
+        text-align: center;
+    }
+
+    .grid-single-item p {
+        margin: 15px 30px;
+    }
+
